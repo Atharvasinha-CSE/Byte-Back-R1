@@ -22,15 +22,5 @@ An industry-grade, cloud-optimized web application that runs a distilled DeepSee
 * **Deep Learning Runtime:** PyTorch (`torch`)
 * **Concurrency:** Python Native `threading.Thread`
 
----
 
-## 🚀 Quick Start & Installation
 
-You can get this production-ready application running in less than 5 minutes using a free Google Colab notebook.
-
-### 1. Environment Setup
-1. Head over to [Google Colab](https://colab.research.google.com/) and spin up a new notebook.
-2. Switch your runtime to hardware acceleration: Navigate to **Runtime** > **Change runtime type**, select **T4 GPU**, and hit Save.
-3. Install the optimized industry dependencies by running the following command in your first cell:
-   ```bash
-   !pip install transformers gradio accelerate
